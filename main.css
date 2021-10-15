@@ -2,6 +2,7 @@
 /*Header*/
 body{
     background-color: white;
+    margin-top: 7em;
 }
 h1{
     /*color: rgba(234,35,41,255);*/
@@ -39,16 +40,17 @@ p{
     
 /*Nav Bars*/
 nav.TopMenu{
+    position: fixed;
+    top:0;
     color: grey;
     font-size: 1.7em;
     font-family: 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 0.04em;
+    width: 98%;
     padding: .50em ;
-    /* margin: 1.0em 0 ; */
     background-color: rgba(9,132,120,255);
     text-align: right;
     text-decoration: none;
-    /*position: fixed;*/
 }
 nav ul{
     margin: 0.5;
@@ -99,14 +101,15 @@ nav li{
     height: .5em;
     margin-top: 1em;
     margin-left: 2em;
-    margin-right: 1.25em;
+    margin-right: -1.5em;
     
 }
 
 .Logo{
     text-align: center;
-    /*background-color: rgba(9,132,120,255);*/
     padding: 2em;
+    background-image: url('Assets/just_bubbles.png');  
+    height: 30em;
 }
 
 .TextPanelNarrow{
@@ -119,6 +122,11 @@ nav li{
     text-align: justify;
     padding: 2em;
 }
+@media screen and (max-width: 1000px) {
+    .TextPanelNarrow {
+      width: 100%;
+    }
+  }
 
 .contentWrapper{
     margin: auto;
