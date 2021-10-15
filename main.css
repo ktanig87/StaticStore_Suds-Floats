@@ -78,6 +78,13 @@ nav li{
     margin-left: -10px;
     /* size: 15px; */
 }
+
+.calendarWrapper{
+    margin: auto;
+    max-width: 1600px;
+    padding: 3.0em;
+    text-align: center;    
+}
 .redbar{
     background-color: rgba(234,35,41,255);
     height: 6em;
