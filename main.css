@@ -203,6 +203,16 @@ nav li{
     color: black;    
 }
 
+.OwnerPanelText{
+    float:left;
+    position: relative; 
+    width: 55%;
+    margin: 2.0em;
+    padding: 2.0em;
+    background-color: white;
+    color: black; 
+}
+
 section div.panelText img.Filler{
     width: 100%;
 }
