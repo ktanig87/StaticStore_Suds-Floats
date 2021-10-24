@@ -9,9 +9,10 @@ h1{
     font-size: 2.0em;
     padding: 0;
     text-align: left;
-    /*font-family: Arial, sans-serif ;*/
+    font-family: 'Libre Baskerville', serif;
     letter-spacing: 0.02em;
     margin: 0;
+    
 }
 p{
     font-size: 1.2em;
@@ -20,6 +21,8 @@ p{
     margin: 0px 0.5em 0.75em 0px;
     padding: 0px;
     text-align: justify;
+    font-family: 'Libre Baskerville', serif;
+    
 }
 textarea{
     width: 100%;
@@ -117,6 +120,8 @@ nav li{
     max-width: 1600px;
     padding: 2.0em;
     text-align: center;    
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 0.02em;
 }
 .redbar{
     background-color: rgba(234,35,41,255);
@@ -136,6 +141,8 @@ nav li{
 #narrowParagraph{
     margin-left: 1.5em;
     margin-right: 1.5em;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 0.02em;
 }
 
 #thinTeal{
@@ -169,6 +176,8 @@ nav li{
     color: black;
     /*background-color: rgba(9,132,120,255);*/
     text-align: right;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 0.02em;
 }
 .TextPanelNarrow{
     font-family: 'Libre Baskerville', serif;
@@ -215,6 +224,8 @@ nav li{
     padding: 2.0em;
     background-color: white;
     color: black; 
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 0.02em;
 }
 
 section div.panelText img.Filler{
