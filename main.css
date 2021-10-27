@@ -127,6 +127,7 @@ nav li{
     background-color: rgba(234,35,41,255);
     height: 6em;
     margin-top: 2em;
+    width: 100%;
 }
 .Form{
     margin: 5%;
