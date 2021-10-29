@@ -175,7 +175,6 @@ nav li{
     margin: 0 0.5em 2.0em 0.5em;
     padding: 1.0em;
     color: black;
-    /*background-color: rgba(9,132,120,255);*/
     text-align: right;
     font-family: 'Libre Baskerville', serif;
     letter-spacing: 0.02em;
@@ -187,7 +186,6 @@ nav li{
     margin-bottom: 3em;
     width: 45%;
     color: black;
-    /*background-color: rgba(9,132,120,255);*/
     text-align: justify;
     padding: 2em;
 }
@@ -205,8 +203,7 @@ nav li{
 /* leave above ALONE*/
 
 .panelText{
-    float:left;
-    position: relative; 
+    float:left; 
     width: 29%;
     height: 55em;
     margin: 0.5em 0.5em 2.0em 0.5em;
@@ -216,11 +213,43 @@ nav li{
     font-family: 'Libre Baskerville', serif;
     letter-spacing: 0.02em;
 }
-
+.panelText1{
+    float:left;    
+    width: 29%;
+    height: 25em;
+    margin: 0.5em 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: white;
+    color: black;    
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 0.02em;
+}
+.panelText2{
+    float:right;
+    width: 29%;
+    height: 25em;
+    margin: 0.5em 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: white;
+    color: black;    
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 0.02em;
+}
 .OwnerPanelText{
     float:left;
-    position: relative; 
     width: 55%;
+    height: 25em;
+    margin: 2.0em;
+    padding: 2.0em;
+    background-color: white;
+    color: black; 
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 0.02em;
+}
+.OwnerPanelText2{
+    float:right;
+    width: 55%;
+    height: 25em;
     margin: 2.0em;
     padding: 2.0em;
     background-color: white;
@@ -234,6 +263,23 @@ section div.panelText img.Filler{
 }
 @media screen and (max-width: 1000px) {
     .panelText {
+      width: 100%;
+    }
+  }
+
+  section div.panelText2 img.Filler{
+    width: 100%;
+}
+@media screen and (max-width: 1000px) {
+    .panelText2 {
+      width: 100%;
+    }
+  }
+  section div.panelText1 img.Filler{
+    width: 100%;
+}
+  @media screen and (max-width: 1000px) {
+    .panelText1 {
       width: 100%;
     }
   }
